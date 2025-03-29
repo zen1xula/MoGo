@@ -3,6 +3,19 @@
     --black: #333333;
     --grey: #B6B6B6;
 }
+h1,h2,h3,h4,p,ul,li,body,input,form{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 380px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
 body{
     font-family: "Roboto", sans-serif;
     font-size: 15px;
@@ -30,6 +43,9 @@ body{
     font-size: 30px;
     line-height: 1.219;
     text-align: center;
+    color: var(--black);
+    margin-bottom: 20px;
+    letter-spacing: 0%;
 }
 .invisible{
     display: none;
@@ -39,4 +55,50 @@ body{
     padding: 0 15px;
     margin: 0 auto;
     outline: solid black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 68px;
+    margin-top: 17px;
+}
+.nav-list{
+    display: flex;
+    gap: 55px;
+}
+.nav-link{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: var(--accent);
+}
+.nav-link:hover{
+    color: var(--hover);
+}
+.service-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.service-list > li{
+    width: 330px;
+    margin-bottom: 100px;
+}
+.team-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.team-list > li > h4{
+    color: var(--black);
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.team-list > li > p{
+    font-family: "Roboto";
+    font-style: italic;
+    color: var(--grey);
 }
