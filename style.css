@@ -191,3 +191,18 @@ body{
     width:37.8px ;
     
 }
+.wrap{
+    display: flex;
+}
+.div1{
+    background-color: #a21a1a;
+    flex-grow: 1;
+}
+.div2{
+    background-color: #21a21a;
+    flex-grow: 1;
+}
+.div3{
+    background-color: #281aa2;
+    flex-grow: 1;
+}
